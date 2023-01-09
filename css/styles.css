@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1 {
+    margin: 3.125rem auto 0 auto; /* same as 50px */
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+h2 {
+    margin: 50px;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    /* font-weight: bold; */
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 5px;
+    /* padding-top: 100px; */
+    /* padding-bottom: 10px; */
+    width: 3%;
+}
+
+p {
+    line-height: 2;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+/************************************** CLASSES *************************************/
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #EAF6F6;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #11cdd4 0px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.profile {
+    border-radius: 50%;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.middle-container {
+    /* background-color: burlywood;
+    height: 200px;
+    width: 200px; */
+    /* padding-top: 100px; previously had this */
+    margin: 100px 0;
+    /* text-align: center; */
+}
+
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    /* min-height: 11vh; original solution to remove the gap from the bottom of footer*/
+    /* margin-bottom: 0; did not work */
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #11999E;
+    /* padding-right: 50px; */
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.steph-description {
+    padding-bottom: 100px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.skills {
+    padding-top: 50px;
+}
+
+.skill-row {
+    width: 50%; /* width: 50% allows the text-align left to be within the 'centered' div*/
+    margin: 100px auto 100px auto; /* allows divs to be centered */
+    text-align: left;
+}
+
+.skill-img-1 {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.skill-img-2 {
+    float: right;
+    width: 25%;
+    margin-left: 30px;
+}
+
+.skill-img-3 {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+/* .contact-me {
+    padding: 50px 50px; added padding to headers insteads
+} */
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
